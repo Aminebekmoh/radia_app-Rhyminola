@@ -19,7 +19,10 @@ const Home = () => {
 				<p className="text-center">Video Place</p>
 			</div>
 			<div className="products grid grid-cols-2 gap-4 w-full justify-items-center">
-				<Link  href={"/velvethoney"} className="h-62  lg:h-92 w-[70%] rounded-2xl shadow-md cursor-pointer">
+				<Link
+					href={"/velvetgold"}
+					className="h-62  lg:h-92 w-[70%] sm:w-[75%] rounded-2xl shadow-md cursor-pointer"
+				>
 					{/* Image container */}
 					<div className="rounded-t-2xl lg:h-80 overflow-hidden h-50 w-full">
 						<img
@@ -34,7 +37,10 @@ const Home = () => {
 						<p className="font-semibold text-white">Velvet Gold</p>
 					</div>
 				</Link>
-			<Link href={"/chocolatedream"} className="h-62  lg:h-92 w-[70%] rounded-2xl shadow-md cursor-pointer">
+				<Link
+					href={"/chocolatedream"}
+					className="h-62  lg:h-92 w-[70%] sm:w-[75%] rounded-2xl shadow-md cursor-pointer"
+				>
 					{/* Image container */}
 					<div className="rounded-t-2xl lg:h-80 overflow-hidden h-50 w-full">
 						<img
@@ -45,11 +51,14 @@ const Home = () => {
 					</div>
 
 					{/* Caption */}
-					<div className="bg-[#7B3F00]/[0.55] h-12 rounded-b-2xl flex items-center justify-center">
-						<p className="font-semibold text-white">Chocolate Dream</p>
+					<div className="bg-[#7B3F00]/[0.55] h-12 rounded-b-2xl  flex items-center justify-center">
+						<p className="font-semibold text-white ">Chocolate Dream</p>
 					</div>
 				</Link>
-				<Link  href={"/harvestfruits"} className="h-62 lg:h-92  w-[70%] rounded-2xl shadow-md cursor-pointer">
+				<Link
+					href={"/harvestfruits"}
+					className="h-62 lg:h-92  w-[70%] sm:w-[75%] rounded-2xl shadow-md cursor-pointer"
+				>
 					{/* Image container */}
 					<div className="rounded-t-2xl lg:h-80 overflow-hidden h-50 w-full">
 						<img
@@ -64,7 +73,10 @@ const Home = () => {
 						<p className="font-semibold text-white">Harvest Fruits</p>
 					</div>
 				</Link>
-				<Link href={"/goldenharvest"} className="h-62  lg:h-92 w-[70%] rounded-2xl shadow-md cursor-pointer">
+				<Link
+					href={"/goldenharvest"}
+					className="h-62  lg:h-92 w-[70%] sm:w-[75%] rounded-2xl shadow-md cursor-pointer"
+				>
 					{/* Image container */}
 					<div className="rounded-t-2xl lg:h-80 overflow-hidden h-50 w-full">
 						<img

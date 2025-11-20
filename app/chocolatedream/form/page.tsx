@@ -37,7 +37,7 @@ const Page = () => {
 				</p>
 			</div>
 
-			<div className="w-fit ml-7 md:mx-auto">
+			<div className="w-full ml-7 md:mx-auto">
 				<h1 className="text-3xl font-semibold mb-5">Information</h1>
 
 				{/* Affichage des erreurs */}
@@ -55,7 +55,7 @@ const Page = () => {
 					placeholder="Enter your name"
 					value={name}
 					onChange={(e) => setName(e.target.value)}
-					className="block bg-gray-300 py-1 focus:outline-none border rounded-md mb-3 pr-25 pl-3 text-black"
+					className="block bg-gray-300 py-1 sm:w-[60%] focus:outline-none border rounded-md mb-3 pr-25 pl-3 text-black"
 				/>
 
 				<input
@@ -63,7 +63,7 @@ const Page = () => {
 					placeholder="Enter your number"
 					value={number}
 					onChange={(e) => setNumber(e.target.value)}
-					className="block bg-gray-300 py-1 focus:outline-none border rounded-md mb-3 pr-25 pl-3 text-black"
+					className="block bg-gray-300 py-1 sm:w-[60%] focus:outline-none border rounded-md mb-3 pr-25 pl-3 text-black"
 				/>
 
 				<input
@@ -71,7 +71,7 @@ const Page = () => {
 					placeholder="Enter your address"
 					value={address}
 					onChange={(e) => setAddress(e.target.value)}
-					className="block bg-gray-300 py-1 focus:outline-none border rounded-md mb-3 pr-25 pl-3 text-black"
+					className="block bg-gray-300 py-1 sm:w-[60%] focus:outline-none border rounded-md mb-3 pr-25 pl-3 text-black"
 				/>
 
 				<button

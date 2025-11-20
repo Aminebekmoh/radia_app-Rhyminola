@@ -36,9 +36,9 @@ const page = () => {
 						{/* image */}
 						<div className="rounded-2xl lg:h-80 overflow-hidden h-40 w-30 mr-3 ml-5 ">
 							<img
-								src="../../chocolat.jpg"
+								src="../../Chocolat.jpg"
 								className="w-full h-full object-cover transform transition-transform duration-500 hover:scale-110"
-								alt="Chocolate Dream"
+								alt="ChocolatDream"
 							/>
 						</div>
 						{/* Infos */}
