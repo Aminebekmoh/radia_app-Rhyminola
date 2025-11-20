@@ -4,14 +4,14 @@ import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const Page = () => {
-	  const router = useRouter();
-  const quantity = useQpStore((state) => state.quantity);
-  const price = useQpStore((state) => state.price);
-  const setQuantity = useQpStore((state) => state.setQuantity);
+	const router = useRouter();
+	const quantity = useQpStore((state) => state.quantity);
+	const price = useQpStore((state) => state.price);
+	const setQuantity = useQpStore((state) => state.setQuantity);
 
-  // Fonctions pour modifier la quantité
-  const increase = () => setQuantity(quantity + 1);
-  const decrease = () => setQuantity(quantity > 1 ? quantity - 1 : 1);
+	// Fonctions pour modifier la quantité
+	const increase = () => setQuantity(quantity + 1);
+	const decrease = () => setQuantity(quantity > 1 ? quantity - 1 : 1);
 
 	return (
 		<div className="w-full h-full">
